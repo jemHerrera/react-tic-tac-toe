@@ -1,0 +1,8 @@
+Things that I've learned and have to keep in mind
+
+- onClick={() => console.log('click')} not onClick={console.log('click')}
+- lifting the state up
+- state immutability is very important
+- Array(9).fill(null)
+- controlled components: Components w/o internal state and are fully controlled by the parent component.
+- When we modified the Square to be a function component, we also changed onClick={() => this.props.onClick()} to a shorter onClick={props.onClick}
